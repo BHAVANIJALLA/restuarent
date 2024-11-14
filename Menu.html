@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="menu.css">
+    <style>
+        /* Add some basic styles for clarity */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .description {
+            text-align: left;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Menu</h1>
+        <nav>
+            <div class=""><a href="project.html"><button type="button" value="back" name="back">back</button></a></div>
+            <ul>
+                <li><a href="project.html">Home</a></li>
+                <li><a href="non-vegetarian.html">Non-Vegetarian</a></li>
+                <li><a href="veg.html">Vegetarian</a></li>
+                <li><a href="desserts.html">Desserts</a></li>
+                <li><a href="beve.html">Beverages</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="non-vegetarian">
+            <h2>Non-Vegetarian Menu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Grilled Chicken</td>
+                        <td>Juicy grilled chicken with herbs.</td>
+                        <td>$12.99</td>
+                    </tr>
+                    <tr>
+                        <td>Beef Steak</td>
+                        <td>Succulent beef steak with a side of vegetables.</td>
+                        <td>$19.99</td>
+                    </tr>
+                    <!-- Add more non-veg dishes here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="vegetarian">
+            <h2>Vegetarian Menu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="dish">Dish</th>
+                        <th class="description">Description</th>
+                        <th class="dish">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vegetable Stir-Fry</td>
+                        <td>Mixed vegetables stir-fried with tofu.</td>
+                        <td>$10.99</td>
+                    </tr>
+                    <tr>
+                        <td>Margherita Pizza</td>
+                        <td>Classic pizza topped with tomatoes, basil, and mozzarella.</td>
+                        <td>$11.99</td>
+                    </tr>
+                    <!-- Add more vegetarian dishes here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="desserts">
+            <h2>Desserts Menu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="dish">Dessert</th>
+                        <th class="description">Description</th>
+                        <th class="dish">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Chocolate Cake</td>
+                        <td>Rich and moist chocolate cake with a creamy frosting.</td>
+                        <td>$6.99</td>
+                    </tr>
+                    <tr>
+                        <td>Tiramisu</td>
+                        <td>Classic Italian dessert with layers of coffee-soaked ladyfingers.</td>
+                        <td>$7.99</td>
+                    </tr>
+                    <!-- Add more desserts here -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="beverages">
+            <h2>Beverages Menu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="dish">Beverage</th>
+                        <th class="description">Description</th>
+                        <th class="dish">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Coffee</td>
+                        <td>Freshly brewed coffee with a rich flavor.</td>
+                        <td>$3.99</td>
+                    </tr>
+                    <tr>
+                        <td>Orange Juice</td>
+                        <td>Refreshing juice made from freshly squeezed oranges.</td>
+                        <td>$4.99</td>
+                    </tr>
+                    <!-- Add more beverages here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+    </footer>
+    <script src="scriptt.js"></script>
+</body>
+</html>
+

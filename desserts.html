@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts Menu - BistroBills</title>
+    <link rel="stylesheet" href="veg.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to BistroBills</h1>
+        <h2>Desserts Menu</h2>
+        <div class=""><a href="project.html"><button type="button" value="back" name="back">back</button></a></div>
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="des.jpeg" alt="Chocolate Cake">
+            <button onclick="addToCart('Chocolate Cak', 8)">Add to Cart</button>
+            <h3>Chocolate Lava Cake</h3>
+            <p>Rich chocolate cake with a molten chocolate center, served with vanilla ice cream.</p>
+        </div>
+        <div class="menu-item">
+            <img src="des2.jpeg" alt="Cheesecake">
+            <button onclick="addToCart('Cheesecake', 8)">Add to Cart</button>
+            <h3>Classic Cheesecake</h3>
+            <p>Creamy cheesecake with a graham cracker crust, topped with a strawberry compote.</p>
+        </div>
+        <div class="menu-item">
+            <img src="des3.jpeg" alt="Tiramisu">
+            <button onclick="addToCart('Tiramisu', 8)">Add to Cart</button>
+            <h3>Tiramisu</h3>
+            <p>Layers of espresso-soaked ladyfingers and mascarpone cheese, dusted with cocoa powder.</p>
+        </div>
+        <div class="menu-item">
+            <img src="des4.jpeg" alt="Apple Pie">
+            <button onclick="addToCart('Apple Pie', 8)">Add to Cart</button>
+            <h3>Apple Pie</h3>
+            <p>Classic apple pie with a buttery, flaky crust, served with a scoop of vanilla ice cream.</p>
+        </div>
+        <div class="menu-item">
+            <img src="des5.jpeg" alt="Panna Cotta">
+            <button onclick="addToCart('Panna Cotta', 8)">Add to Cart</button>
+            <h3>Panna Cotta</h3>
+            <p>Silky smooth panna cotta topped with a fresh berry sauce.</p>
+        </div>
+        <div class="menu-item">
+            <img src="des6.jpeg" alt="Lemon Tart">
+            <button onclick="addToCart('Lemon Tart', 8)">Add to Cart</button>
+            <h3>Lemon Tart</h3>
+            <p>Tangy lemon curd in a crisp tart shell, garnished with fresh raspberries.</p>
+        </div>
+    </div>
+    <section id="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+    
+    <script src="scripttt.js"></script>
+</body>
+</html>

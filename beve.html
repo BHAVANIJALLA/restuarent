@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beverages Menu - BistroBills</title>
+    <link rel="stylesheet" href="veg.css">
+</head>
+<body>
+   
+    <header class="header">
+        <h1>Welcome to BistroBills</h1>
+        <h2>Beverages Menu</h2>
+        <div class=""><a href="project.html"><button type="button" value="back" name="back">back</button></a></div>
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="beve.jpeg" alt="Iced Coffee">
+            <button onclick="addToCart('Iced Coffee', 10)">Add to Cart</button>
+            <h3>Iced Coffee</h3>
+            <p>Refreshing cold brew coffee served over ice with a splash of milk.</p>
+        </div>
+        <div class="menu-item">
+            <img src="beva7.jpeg" alt="Mango Smoothie">
+            <button onclick="addToCart('Mango Smoothie', 10)">Add to Cart</button>
+            <h3>Mango Smoothie</h3>
+            <p>Creamy mango smoothie made with fresh mangoes and yogurt.</p>
+        </div>
+        <div class="menu-item">
+            <img src="beve2.jpeg" alt="Green Tea">
+            <button onclick="addToCart('Green Tea', 10)">Add to Cart</button>
+            <h3>Green Tea</h3>
+            <p>Hot green tea brewed to perfection, served with a hint of lemon.</p>
+        </div>
+        <div class="menu-item">
+            <img src="beve3.jpeg" alt="Lemonade">
+            <button onclick="addToCart('Lemonade', 10)">Add to Cart</button>
+            <h3>Fresh Lemonade</h3>
+            <p>Zesty lemonade made with freshly squeezed lemons and a touch of honey.</p>
+        </div>
+        <div class="menu-item">
+            <img src="beve4.jpeg" alt="Cappuccino">
+            <button onclick="addToCart('Cappuccino', 10)">Add to Cart</button>
+            <h3>Cappuccino</h3>
+            <p>Rich espresso topped with frothy steamed milk and a sprinkle of cocoa.</p>
+        </div>
+        <div class="menu-item">
+            <img src="beve5.jpeg" alt="Mint Mojito">
+            <button onclick="addToCart('SMint Mojito', 10)">Add to Cart</button>
+            <h3>Mint Mojito</h3>
+            <p>A refreshing blend of fresh mint, lime juice, and soda, served over ice.</p>
+        </div>
+        <div class="menu-item">
+            <img src="beva6.jpeg" alt="Orange Juice">
+            <button onclick="addToCart('Orange Juice', 10)">Add to Cart</button>
+            <h3>Fresh Orange Juice</h3>
+            <p>100% pure orange juice squeezed from fresh oranges.</p>
+        </div>
+        <div class="menu-item">
+            <img src="beva7.jpeg" alt="Hot Chocolate">
+            <button onclick="addToCart('Hot Chocolate', 10)">Add to Cart</button>
+            <h3>Hot Chocolate</h3>
+            <p>Decadent hot chocolate made with rich cocoa and topped with whipped cream.</p>
+        </div>
+    </div>
+    
+    <section id="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+    
+    <script src="scriptt.js"></script>
+</body>
+</html>

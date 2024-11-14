@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetarian Menu - BistroBills</title>
+    <link rel="stylesheet" href="veg.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to BistroBills</h1>
+        <h2>Vegetarian Menu</h2>
+        <div class=""><a href="project.html"><button type="button" value="back" name="back">back</button></a></div>
+    </header>
+
+    <div class="menu-container">
+        <div class="menu-item">
+            <img src="vege.jpeg" alt="Grilled Vegetable Panini">
+            <h3>Grilled Vegetable Panini</h3>
+            <p>Grilled seasonal vegetables, mozzarella cheese, and basil pesto on ciabatta bread.</p>
+            <button onclick="addToCart('Grilled Vegetable Panini', 8)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="vegg2.jpeg" alt="Vegetarian Pasta Primavera">
+            <h3>Vegetarian Pasta Primavera</h3>
+            <p>Penne pasta tossed with fresh vegetables, garlic, olive oil, and parmesan cheese.</p>
+            <button onclick="addToCart('Vegetarian Pasta Primavera', 12)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="vegg3.jpeg" alt="Vegetarian Stir-Fry">
+            <h3>Vegetarian Stir-Fry</h3>
+            <p>Sautéed tofu, mixed vegetables, and soy sauce served over jasmine rice.</p>
+            <button onclick="addToCart('Vegetarian Stir-Fry', 10)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="vegg4.jpeg" alt="Caprese Salad">
+            <h3>Caprese Salad</h3>
+            <p>Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.</p>
+            <button onclick="addToCart('Caprese Salad', 7)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="vegg5.jpeg" alt="Vegetable Curry">
+            <h3>Vegetable Curry</h3>
+            <p>Aromatic curry with mixed vegetables, served with basmati rice and naan bread.</p>
+            <button onclick="addToCart('Vegetable Curry', 11)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="vegg6.jpeg" alt="Margherita Pizza">
+            <h3>Margherita Pizza</h3>
+            <p>Classic pizza topped with fresh tomatoes, mozzarella, and basil.</p>
+            <button onclick="addToCart('Margherita Pizza', 9)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="vegg7.jpeg" alt="Veggie Burger">
+            <h3>Veggie Burger</h3>
+            <p>Delicious veggie patty served with lettuce, tomato, and a tangy sauce on a whole grain bun.</p>
+            <button onclick="addToCart('Veggie Burger', 8)">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+            <img src="vegg8.jpeg" alt="Stuffed Bell Peppers">
+            <h3>Stuffed Bell Peppers</h3>
+            <p>Bell peppers filled with a mixture of rice, beans, and spices, baked to perfection.</p>
+            <button onclick="addToCart('Stuffed Bell Peppers', 10)">Add to Cart</button>
+        </div>
+    </div>
+
+    <section id="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+
+    <script src="scripttt.js"></script>
+</body>
+</html>
